@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.Krypt" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here -->
+        <item name="colorPrimary">@color/appGreen</item>
+
+    </style>
+
+    <!-- Extend the Base Theme -->
+    <style name="Theme.Krypt" parent="Base.Theme.Krypt" />
+</resources>

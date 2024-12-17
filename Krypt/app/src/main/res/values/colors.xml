@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#504E4E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="appGreen">#6D9773</color>
+    <color name="darkGreen">#0C3B2E</color>
+    <color name="boldLabel">#FF5722</color> <!-- Replace with your desired color for bold labels -->
+    <color name="normalText">#212121</color> <!-- Replace with your desired color for normal text -->
+    <color name="greenishWhite">#CEEFE7</color>
+</resources>

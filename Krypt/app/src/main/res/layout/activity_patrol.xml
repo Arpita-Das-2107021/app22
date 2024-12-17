@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/patrolTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patrol Tracking"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/startPatrolButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Patrol"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/stopPatrolButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Patrol"
+        android:layout_marginTop="10dp"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/currentLocationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Location: Not Available"
+        android:layout_marginTop="20dp"
+        android:padding="8dp" />
+</LinearLayout>

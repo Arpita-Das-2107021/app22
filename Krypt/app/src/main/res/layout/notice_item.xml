@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/greenishWhite">
+
+    <TextView
+        android:id="@+id/noticeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notice Title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/noticeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notice Description"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="250dp">
+    <ImageButton
+        android:id="@+id/editNoticeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/edit_icon"/>
+    <ImageButton
+        android:id="@+id/deleteNoticeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/delete_icon"/>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "859410996179",
+    "project_id": "krypt-2k21",
+    "storage_bucket": "krypt-2k21.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859410996179:android:ecfe50ffb6d5a0cc11ed26",
+        "android_client_info": {
+          "package_name": "com.example.hello3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZegxovrKtuXmbzoG5kOEYLL7vHrKhMlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859410996179:android:361c33ab643bcc3c11ed26",
+        "android_client_info": {
+          "package_name": "com.example.krypt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZegxovrKtuXmbzoG5kOEYLL7vHrKhMlU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

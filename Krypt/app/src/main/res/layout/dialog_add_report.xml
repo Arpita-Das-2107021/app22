@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title Input Field -->
+    <EditText
+        android:id="@+id/reportTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Post Title"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+    <!-- Description Input Field -->
+    <EditText
+        android:id="@+id/reportDescriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Post Description"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="8dp"
+        android:gravity="top"
+        android:minLines="3" />
+
+    <!-- Media URLs Input Field -->
+    <EditText
+        android:id="@+id/mediaUrlsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Media URLs (comma-separated)"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+    <!-- Media Types Input Field -->
+    <EditText
+        android:id="@+id/mediaTypesInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Media Types (comma-separated)"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+    <!-- Submit Report Button -->
+    <Button
+        android:id="@+id/submitReportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Report"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/appGreen" />
+</LinearLayout>

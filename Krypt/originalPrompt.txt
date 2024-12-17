@@ -1,0 +1,40 @@
+I want an app that deals with security issues in university campus named Krypt ( as university name is kuet,bd). The app will be governed and owned by university (like hall manangement apps).
+The students and teachers will log into the app with the email provided by the university (for example, lastNameRoll@stud.university_name_short_form.ac.bd). The cvs file will be uploaded
+to firebase.
+There are 17 departments in my university (Faculty of Civil Engineering
+Department of Civil Engineering (CE)
+Department of Urban and Regional Planning (URP)
+Department of Building Engineering & Construction Management (BECM)
+Department of Architecture (ARCH)
+Faculty of Science & Humanities
+Department of Mathematics (MATH)
+Department of Chemistry (CH)
+Department of Physics (PH)
+Department of Humanities (HUM)
+Faculty of Electrical and Electronic Engineering
+Department of Electrical & Electronic Engineering (EEE)
+Department of Computer Science & Engineering (CSE)
+Department of Electronics and Communication Engineering (ECE)
+Department of Biomedical Engineering (BME)
+Department of Materials Science and Engineering (MSE)
+Faculty of Mechanical Engineering
+Department of Mechanical Engineering (ME)
+Department of Industrial Engineering and Management (IEM)
+Department of Leather Engineering (LE)
+Department of Textile Engineering (TE)
+Department of Energy Science and Engineering (ESE)
+Department of Chemical Engineering (ChE)
+Department of Mechatronics Engineering (MTE)
+) 
+People will post news or information about security related issues only. There will be separate portals of different departments where one can post something of his department directly. 
+Posting to another department or anonymously in either own or different department will need admin approval. If the issues are solvable, the issue will be marked solved by the one who
+originally posted or by admin. The post will then be removed from the current issue section and will be saved in solved archive. If any post turn out to be false, the post instead of
+being deleted, will be stored in another archive named rumor. The posts will have status feature also ie if the problem is being solved then 'on going', if not started then 'hold' etc.
+The posts will have comment sections also like reddit.
+There will be pin option too.
+People can also search for post using keywords.
+If any student or teacher feel threatened or risk, then they can share their locations via this app. Then a responsive group must contact with the individual. As other students and
+teachers can also see the distress signal, they can go to help if they want however this is in the scope of the app as the official university response team will be notified specially.
+This distess issue will be another section of the app. All can access this section regardless of department. There will be personal chat option with the response team in this section.
+make the app and I will upload the cvs file as you cannot do it.
+use the color templates given

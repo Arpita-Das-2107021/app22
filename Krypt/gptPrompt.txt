@@ -1,0 +1,102 @@
+Make the app whose details are given below in android studio (java) using the cvs file and color scheme given.
+Complete the whole app with details code and directions everything. You must do everything. 
+I will copy paste the codes into similar files in android studio to build the app in real time.
+
+Krypt: University Campus Security App for KUET
+Overview:
+"Krypt" is a university-governed mobile application designed to enhance campus security for students and staff at KUET, Bangladesh. The app will be managed by the university, similar to hall management applications, and includes features for real-time security updates, department-specific portals, incident reporting, and emergency location-sharing.
+
+Authentication:
+All users (students, faculty, and staff) will log in using their university-provided email addresses in the format: lastNameRoll@stud.university_abbreviation.ac.bd. User data will be managed via Firebase, where a CSV file of approved users will be uploaded.
+
+University Departments (17):
+The app will support department-specific portals for all faculties and departments, allowing users to view and post security-related updates. Departments include:
+
+Faculty of Civil Engineering
+Civil Engineering (CE)
+Urban and Regional Planning (URP)
+Building Engineering & Construction Management (BECM)
+Architecture (ARCH)
+Faculty of Science & Humanities
+Mathematics (MATH)
+Chemistry (CH)
+Physics (PH)
+Humanities (HUM)
+Faculty of Electrical and Electronic Engineering
+Electrical & Electronic Engineering (EEE)
+Computer Science & Engineering (CSE)
+Electronics and Communication Engineering (ECE)
+Biomedical Engineering (BME)
+Materials Science and Engineering (MSE)
+Faculty of Mechanical Engineering
+Mechanical Engineering (ME)
+Industrial Engineering and Management (IEM)
+Leather Engineering (LE)
+Textile Engineering (TE)
+Energy Science and Engineering (ESE)
+Chemical Engineering (ChE)
+Mechatronics Engineering (MTE)
+Features:
+
+Incident Reporting & Department-Specific Portals:
+
+Users can post security issues in their respective department portal.
+Cross-department posts or anonymous posts require admin approval.
+Issue resolution tracking with statuses like "On Hold," "In Progress," and "Resolved."
+Once resolved, issues move to the "Solved Archive"; false reports move to a "Rumor Archive" for reference.
+Interactive Post Management:
+
+Pinning: Important posts can be pinned for higher visibility.
+Comment Section: Each post has a comment thread to discuss updates and solutions, similar to Reddit.
+Search: Keyword-based search to easily find posts.
+Distress Signal & Emergency Location Sharing:
+
+If users feel threatened, they can share their live location with the university's response team and other app users.
+A dedicated emergency response team is notified for immediate assistance.
+Other students and faculty can view the distress signal and offer help if nearby.
+Personal Chat with Emergency Team:
+
+Users can communicate directly with the emergency response team through a private chat in the app’s distress section.
+This section is accessible to all departments and users, ensuring comprehensive security support.
+Campus Patrol Tracker:
+
+Display the real-time locations of campus security patrols (with user consent), providing a visible security presence on campus.
+Users can offer feedback on patrol routes, which helps the university optimize patrol coverage and increase the efficiency of security measures.
+Personal Safety Tips and Resources Section:
+
+Include a resources section with safety tips, emergency contacts, and guides on handling common security threats on campus.
+Accessible to all users, this feature promotes safety awareness and proactive preparedness.
+Feedback and Improvement Requests:
+
+Include an in-app feedback form for users to suggest improvements, report bugs, or share their experiences. This feature allows the university to refine the app based on real-world user feedback and continuously improve user experience.
+User Education and Training Modules:
+
+Integrate short training modules or quizzes on campus security practices, including emergency protocols, response team roles, and appropriate actions during specific threats.
+Gamify these modules with badges or certificates for completion, encouraging users to engage and stay informed about campus safety.
+Regular Security Surveys:
+
+Conduct regular in-app surveys to gauge the campus community’s sense of security, satisfaction with response times, and overall campus safety.
+These surveys can provide valuable data for improving both the app and on-campus safety measures, ensuring the app meets the needs of the university community.
+Smart Alert Notifications
+
+Customized Alerts: Allow users to set preferences for the types of alerts they want to receive (e.g., security incidents in their department, campus-wide alerts).
+Proximity-Based Alerts: Notify users in the vicinity of an incident or distress signal to help them respond faster or avoid certain areas.
+Anonymous Reporting with Enhanced Privacy
+Offer anonymous reporting options with privacy features, enabling users to report sensitive issues confidentially. This encourages more users to report issues without fear of identification.
+Incident Mapping and Visualization
+Display incidents on a campus map interface with color-coded markers (e.g., red for active incidents, green for resolved) for a clear view of campus safety.
+Include a heatmap view to highlight high-risk areas, helping the university identify and address vulnerable zones.
+Integrated SOS and Quick-Response Buttons
+Dedicated SOS Button: Users can instantly send distress signals to bypass normal notification protocols and alert security staff directly.
+Shake to Activate SOS: A feature allowing users to activate an SOS alert by shaking their phone, ensuring immediate access to assistance.
+Video and Photo Attachments for Incidents
+Allow users to attach photos or videos to their reports, providing visual context and improving response accuracy.
+Automatic Redaction: To ensure privacy, sensitive details like faces can be automatically blurred before sharing.
+Security Score for Campus Safety Evaluation
+Introduce a “Security Score” for various campus zones based on incident history and user feedback, helping users assess safety in real-time.
+Event-Based Safety Awareness
+Create a separate tab for university events with event-specific safety information, emergency contacts, and relevant safety tips tailored to expected crowd sizes and event types.
+Implementation Notes:
+
+Admin Panel: Allows administrators to approve cross-department and anonymous posts, manage reports, and monitor distress signals.
+CSV Upload: The app will support easy CSV upload to manage user data in Firebase, with data permissions handled by the university.

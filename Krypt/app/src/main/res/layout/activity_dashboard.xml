@@ -1,0 +1,61 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <!-- Main content with Toolbar -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <!-- Toolbar for the ≡ icon -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6D9773"
+            android:elevation="4dp"
+            app:titleTextColor="@color/white" />
+
+        <!-- Main content below toolbar -->
+        <TextView
+            android:id="@+id/universityTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khulna University of Engineering and Technology"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="16dp"
+            android:layout_below="@id/toolbar" />
+
+        <Button
+            android:id="@+id/addNotice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/universityTitle"
+            android:text="add notice"
+            android:visibility="gone"/>
+
+        <!-- RecyclerView for notices -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/noticesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/addNotice"
+            android:padding="16dp" />
+    </RelativeLayout>
+
+    <!-- Navigation drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/navigation_header" />
+</androidx.drawerlayout.widget.DrawerLayout>
